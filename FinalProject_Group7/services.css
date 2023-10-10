@@ -1,0 +1,132 @@
+.herosection {
+    min-height: 20.59375vw;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background: url(images/breadcrumbs-bg.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext {
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8vw;
+    text-shadow: 2px 2px 4px rgba(25, 22, 22, 0.6);
+}
+
+  .herotext h1{
+    margin: 0;
+    color: white;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .offercontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .offercontainer h2{
+    font-size: 3vw;
+  }
+  .offergrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+}
+
+  .item .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .item .content {
+    flex-grow: 1;
+  }
+
+ .item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #c14679;
+    font-weight: 900;
+}
+
+  .item span {
+    color: rgba(21, 21, 21, 0.05);
+    font-size: 55px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-self: center;
+    margin: 1.5%;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+  .staycontainer {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Change this value according to your image size */
+  }
+
+  .stayimage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .stayoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+input[type="email"] {
+    width: 600px;
+    height: 47px;
+    padding: 21px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    max-width: 100%;
+}
+

@@ -1,0 +1,129 @@
+.herosection {
+    min-height: 20.59375vw;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background: url(images/breadcrumbs-bg.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext {
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8vw;
+    text-shadow: 2px 2px 4px rgba(25, 22, 22, 0.6);
+}
+
+  
+  .herotext h1{
+    margin: 0;
+    color: white;
+  }
+
+  .team-section {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .team-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2vw;
+    margin: 2% 10%;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7vw;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .team-card:hover {
+    box-shadow: 1vw 2vw 2vw 0 rgba(4, 4, 4, 0.2);
+  }
+  
+.team-card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+  .team-card.team1 h3 {
+    margin: 10px 0 15px;
+    font-size: 24px;
+}
+  .team-card h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .team-card p {
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  
+  /* Team 1 */
+ .team1 {
+    border: 2px solid #c14679;
+}
+  
+  
+  
+  .team-cards h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+
+
+  @media screen and (max-width: 768px) {
+ .herosection {
+    min-height: 40vw;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-size: cover;
+}
+    .herotext {
+    top: 50%;
+    font-size: 4vw;
+    }
+    
+    .team-cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1vw;
+    margin: 0;
+    padding: 20px;
+    }
+    
+    .team-card {
+    padding: 0.5vw;
+    }
+    
+    .team-card h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    }
+    
+    .team-card p {
+    margin-bottom: 10px;
+    }
+    
+    .team-cards h3 {
+    font-size: 2.5vw;
+    }
+    }
+    
+    
+    
+    
+    
